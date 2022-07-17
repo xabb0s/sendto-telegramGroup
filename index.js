@@ -16,7 +16,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended: true}))
 
 app.get("/", (req, res) => {
-  res.res("Hello World!")
+  res.send("Hello World!")
 })
 
 app.post("/fishes", (req, res) => {
