@@ -1,0 +1,22 @@
+{
+  "name": "save-to-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node inedx.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "xabb0s",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "telebot": "^1.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
