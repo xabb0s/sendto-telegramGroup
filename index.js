@@ -34,8 +34,6 @@ app.post("/fishes", (req, res) => {
   res.status(200).send("Fine!")
 })
 
-bot.on("text", (msg) => msg.reply.text(`Fucking Doing? 🗿`))
-
 bot.start()
 
 const port = process.env.PORT || 8000
