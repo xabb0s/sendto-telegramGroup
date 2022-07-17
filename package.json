@@ -1,8 +1,12 @@
 {
+  "type": "commonjs",
   "name": "save-to-bot",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "engines": {
+    "node": "^16.15.1"
+  },
   "scripts": {
     "start": "node inedx.js",
     "dev": "nodemon index.js"
